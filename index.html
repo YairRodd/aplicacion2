@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/app2temas.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--Grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/FB_IMG_1459879277590.jpg','imagenes/FB_IMG_1459879285295.jpg','imagenes/FB_IMG_1459879287999.jpg','imagenes/FB_IMG_1459879293889.jpg','imagenes/FB_IMG_1459879280264.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Semana Santa</h1>
+  </div>
+    <center>
+   <img src="imagenes/semanasantaletrero.jpg" >
+    </center>
+   <div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-inset="false" data-content-theme="false">
+        <h1>Significado de la semana santa</h1>
+         <div>
+         <p>Semana Santa, conocida como semana mayor, es un período de 7 días que comienza con el Domingo de Ramos y culmina con el Domingo de Resurrección. Con la Semana Santa, el cristiano conmemora el Triduo Pascual, es decir, los momentos de la Pasión, la Muerte y la Resurrección de Jesucristo.
+         </p>
+         <img src="imagenes/JesusSemSanta.jpg" width="400" height="265">
+         <p>
+La Semana Santa está precedida por la Cuaresma que se refiere al tiempo de preparación donde se recuerda los 40 días de Jesucristo en el desierto. Las celebraciones centrales de la Semana Santa son: Jueves Santo, Viernes Santo, Sábado Santo y Domingo de Resurrección.
+</p>
+<img src="imagenes/semanasantaQueEs.jpg" width="400" height="265">
+<p>
+La Semana Santa, es el tiempo para dedicarse a la oración y reflexionar en Jesucristo, en los momentos del Triduo Pascual, quien con su infinita misericordia, decide tomar el lugar del hombre y recibir el castigo para liberarlo de los pecados. Asimismo, es el tiempo ideal para el ser humano meditar sobre sus acciones y los cambios que debe realizar para acercarse más a Dios y cumplir con sus mandamientos.
+</p>
+<img src="imagenes/cuaresma-y-semana-santa.jpg" width="400" height="265">
+<img src="imagenes/QueEsSemanaSanta.jpg" width="400" height="265">
+<img src="imagenes/la-semana-santa.jpg" width="400" height="265">
+         </div>
+       <div>
+     </div>
+     </div>
+ </div>
+  <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-inset="false" data-content-theme="false">
+     <h1>Domingo de pascua</h1>
+      <div>
+       <p> El Domingo de Resurrección o de Pascua es la fiesta más importante para todos los católicos, ya que con la Resurrección de Jesús es cuando adquiere sentido toda nuestra religión.
+Cristo triunfó sobre la muerte y con esto nos abrió las puertas del Cielo. En la Misa dominical recordamos de una manera especial esta gran alegría. Se enciende el Cirio Pascual que representa la luz de Cristo resucitado y que permanecerá prendido hasta el día de la Ascensión, cuando Jesús sube al Cielo.
+La Resurrección de Jesús es un hecho histórico, cuyas pruebas entre otras, son el sepulcro vacío y las numerosas apariciones de Jesucristo a sus apóstoles.
+Cuando celebramos la Resurrección de Cristo, estamos celebrando también nuestra propia liberación. Celebramos la derrota del pecado y de la muerte.
+En la resurrección encontramos la clave de la esperanza cristiana: si Jesús está vivo y está junto a nosotros, ¿qué podemos temer?, ¿qué nos puede preocupar?</p>
+<img src="imagenes/domingo_resurreccion.png" width="400" height="265">
+     </div>
+   <div>
+     </div>
+     </div>
+ </div>
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-inset="false" data-content-theme="false">
+     <h1>¿Cómo se establece la semana santa?</h1>
+      <div>
+       <p> Probablemente usted habrá notado que la fecha de la Semana Santa varía considerablemente de un año al siguiente. Esta fecha se escoge a partir de una fórmula establecida por el Emperador Romano Constantino el Grande y el Concilio de Nicea en 325 d. C. Usted puede usar la fórmula para verificar la fecha de Pascua cada año.
+En primer lugar debe hallar el equinoccio vernal, o primer día de primavera ( alrededor del 21- 22 de marzo ), en un calendario que incluya datos astronómicos básicos. Después busque la siguiente luna llena, normalmente está indicada en una esquina del calendario. La Semana Santa caerá el domingo siguiente.
+De acuerdo con esta regla, la fecha más tardía posible para Semana Santa sería el 25 de Abril, la próxima ocurrencia será en 2038. La más temprana el 22 de Marzo, en 2285. La mayoría de las veces, la Semana Santa cae durante la primera semana de Abril.
+</p>
+     </div>
+   <div>
+     </div>
+     </div>
+ </div>
+   <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-inset="false" data-content-theme="false">
+     <h1>Celebración en Atlixco</h1>
+      <div>
+       <p>Durante la temporada vacacional de Semana Santa que se lleva a cabo en el municipio de Atlixco, el alcalde Ricardo Camacho Corripio dio a conocer las tradiciones de fe que distinguen a la entidad que, aunado a los diversos atractivos que la región ofrece, permitirá atraer más de 80 mil visitantes en estos días. Lo anterior representa un impacto en la economía de las familias de la entidad —de manera directa e indirecta— pues se calcula se tenga una derrama económica mayor a los 20 millones de pesos.
+           </p>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/FB_IMG_1459879277590.jpg',1)"><img src="imagenes/semanasantaletrero.jpg" width="300" height="151" id="Image21"></a>
+       <p>
+         “Entre las tradiciones que han distinguido a Atlixco es la ‘Procesión del Silencio’ en la comunidad de Nexatengo, la cual es realizada por la cofradía de Nazarenos de la entidad y la ‘Procesión de Engrillados’. Cabe mencionar que ambos eventos son actos de penitencia, fe y de arrepentimiento, mismos que se realizarán el próximo 6 de abril a partir de la seis de la mañana en Santa Lucía Cosamaloapan”, refirió el alcalde.
+</p>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/FB_IMG_1459879285295.jpg',1)"><img src="imagenes/semanasantaletrero.jpg" width="300" height="151" id="Image22"></a>
+       <p>
+         Cabe precisar que en la “Procesión de los Engrillados” los participantes se caracterizan por vestir de luto y portar pesadas cadenas de aproximadamente 60 kilos, además de ponerse espinas en el cuerpo. Ellos recorren las principales calle de la ciudad y tienen una preparación, tanto espiritual como física de dos meses. Se realizará también el viernes 6 de abril.
+         
+       </p>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','imagenes/FB_IMG_1459879287999.jpg',1)"><img src="imagenes/semanasantaletrero.jpg" width="300" height="151" id="Image23"></a>
+       <!--Agregar la ruta de la imagen--><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/FB_IMG_1459879293889.jpg',1)"><img src="imagenes/semanasantaletrero.jpg" width="300" height="151" id="Image25"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/FB_IMG_1459879280264.jpg',1)"><img src="imagenes/semanasantaletrero.jpg" width="300" height="151" id="Image27"></a></div>
+   <div>
+     <img></div>
+     </div>
+ </div>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Iztapalapa</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Vaticano</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Jerusalem</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Ciudad Juárez</h2>
+      </a>
+     </li>
+   </ul>
+   </div>
+   <div data-role="footer" align="center" data-theme="a">
+      <div>
+        <img src="imagenes/persona_azul.png" width="46" height="46">
+      </div>
+      <div>
+       <h4>Aplicacion dos</h4>
+       <h4>Rogelio Yair Rodriguez Serrano</h4>
+      </div>
+  </div>
+</div>      
+       <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Celebracion en Iztapalapa</h1>
+        </div>
+        <div data-role="content" align="center">
+          <div>
+           <h2>Semana santa en Iztapalapa</h2>
+           <p>
+           La pasión en Iztapalapa no se viviría como  cada año se vive si no fuera por la participación activa de los habitantes de los barrios del centro de la demarcación y es que año con año son fieles participantes a la escenificación mostrando el gran cariño a sus propias tradiciones y festividades haciendo con su empeño y dedicación que Iztapalapa se convierta pos unos días en el centro de atención de miles de personas que siguen año con año la tradicional escenificación de la pasión y muerte de Jesús.
+           </p>
+           <img src="imagenes/Semana_Santa_Iztapalapa-8400x600.jpg" height="265" width="400">
+           <p>
+Claro ejemplo de la importancia que tiene la escenificación  para el pueblo de Iztapalapa es que diferentes mayordomías se han sumado para darle más realce a la pasión que se vive en Iztapalapa como la mayordomía del Señor de Jerusalén que desde la década de los 40´s ha acompañado la procesión por todos los barrios el Domingo de Ramos y que con el paso de los años se ha convertido en una de las más grandes mayordomías que tiene este pueblo pues ya cuenta con mayordomos enlistados hasta el año 2040 lo que nos habla del arraigo que genera esta tradición sumada a la de la pasión.
+           </p>
+           <img src="imagenes/Iztapalapa.jpg" height="265" width="400">
+           <img src="imagenes/Iztapalapasemsanta.jpg" width="400" height="265">
+           <!--Agregar la ruta de la imagen-->
+        </div> 
+      </div>
+      <div data-role="footer" data-theme="a">
+       <h4>Aplicacion dos, Rogelio Yair Rodriguez Serrano</h4>
+       </div>
+       </div>
+       </div>
+         <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Celebracion en El Vaticano</h1>
+        </div>
+        <div data-role="content" align="center">
+          <div>
+           <h2>Semana santa en El Vaticano</h2>
+           <!--Agregar la ruta de la imagen-->
+           <p>
+           El 20 de marzo, el Santo Padre presidirá a las 9,30 horas de Roma elDomingo de Ramos y de la Pasión de Jesús en la Plaza de San Pedro. Este día también se celebra una nueva Jornada Mundial de la Juventud con el tema “Dichosos los misericordiosos, porque encontrarán misericordia”. Este año, la XXXI se celebrará también en Cracovia (Polonia) del 26 al 31 de julio y contará con la presencia del Papa Francisco.
+           </p>
+           <img src="imagenes/VaticanoPapa.jpeg" width="400" height="265">
+           <p>
+El jueves 24 de marzo el Papa Francisco presidirá en la Basílica de San Pedro a las 9,30 horas la concelebración de la Santa Misa Crismal con los cardenales, patriarcas, arzobispos, obispos y presbíteros presentes en Roma.
+El Viernes Santo, día 25, el Papa presidirá la Liturgia de la Palabra, la adoración a la Cruz y el rito de la comunión de la celebración de la Pasión del Señor. Tendrá lugar a las 17 horas en la Basílica de San Pedro.
+</p>
+<img src="imagenes/VaticanoOrac.jpeg" width="268" height="auto">
+<p>
+Ese mismo día por la tarde, a las 21:15 horas, el Pontífice presidirá la elVia Crucis desde el popular Coliseo.
+El 26 de marzo tendrá lugar la Vigilia Pascual a las 20,30 horas en la Basílica de San Pedro. La celebración contempla la bendición del fuego nuevo en el atrio de la Basílica; el canto del Pregón Pascual, la Liturgia de la Palabra, la Liturgia Bautismal y la Liturgia Eucarística, que será concelebrada por cardenales, obispos y presbíteros.
+A las 10 horas del día siguiente, Francisco presidirá la Santa Misa del día del Domingo de Resurrección. Al finalizar, impartirá como cada año la Bendición “Urbi et Orbi”.
+           </p>
+           <img src="imagenes/VaticanoChur.jpeg" height="400" width="auto">
+        </div> 
+      </div>
+      <div data-role="footer" data-theme="a">
+       <h4>Aplicacion dos, Rogelio Yair Rodriguez Serrano</h4>
+       </div>
+       </div>
+       </div>
+         <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Celebracion en Jerusalem</h1>
+        </div>
+        <div data-role="content" align="center">
+          <div>
+           <h2>Semana santa en Jerusalem</h2>
+           <!--Agregar la ruta de la imagen-->
+           <p>
+           Si hay un lugar en el mundo en que la mayoría de las personas coinciden en llamar santo, ese es Jerusalén.
+Sucede que las tres principales religiones monoteístas (judaísmo, cristianismo e islam) consideran la consideran una tierra sagrada. De hecho, su mismo nombre significa "Ciudad de Paz" en hebreo o "La Santa" en árabe.
+Por eso no es de extrañarse que la capital de Israel -que fue declarada Patrimonio de la Humanidad por la UNESCO en 1981- reviva cada año en la Semana Santa.
+Miles de turistas -principalmente cristianos que recuerdan la Pasión de Cristo- llegan a la ciudad para celebrar los días que transcurren entre el Domingo de Ramos (que recuerda la entrada triunfal de Jesús en Jerusalén) y Pascua (la resurrección del Señor, luego de su muerte en la cruz).
+Así, toda la semana se convierte en una celebración litúrgica, donde religión y turismo se entrecruzan de una manera excepcional.
+Domingo de Ramos
+Como no podía ser de otro modo, el Monte de los Olivos -ubicado en el valle de Kidrón, al este de Jerusalén- reúne a peregrinos de los cinco continentes durante el Domingo de Ramos.
+          </p>
+                   <img src="imagenes/jerusalem.jpg" width="400" height="265">
+          <p>
+          Según describe el sitio LocuraViajes.com, estas personas ponen todo su fervor y oraciones en un camino que los lleva desde la iglesia de Betfagé (donde supuestamente se encuentra la roca en la que se apoyó Jesús para subirse a su asno), hasta la misma entrada en Jerusalén, en lo que es la representación del camino que hizo siglos atrás el propio Cristo hasta entrar triunfalmente a la ciudad.
+Luego se dirigen a la Iglesia de Santa Ana en Getsemaní, o ingresan a la ciudad a través de las murallas por la Puerta de San Esteban.
+Jueves y Viernes Santos
+Los momentos más emotivos y llamativos se dan el Jueves Santo, día en que los cristianos recuerdan la Última Cena de Cristo, en la que instauró el sacramento de la Eucaristía y tras la cual fue traicionado por Judas.
+Ese día se celebra una misa en el Santo Sepulcro, una iglesia que comparten los católicos, ortodoxos y armenios. Allí se realiza el lavatorio de pies, tal y como hizo Jesús con sus apóstoles.
+           </p>
+           <img src="imagenes/JerusalemMezquita.jpg" width="400" height="265">
+           <p>
+El Viernes Santo por la mañana todos los grupos que se han dado cita en Israel hacen una peregrinación en Vía Crucis por las callejas empedradas de la capital, siguiendo el camino que lleva hasta el monte Gólgota (Calavera), y haciendo las estaciones penitenciales que recuerdan los distintos momentos del camino a la cruz, incluyendo las caídas.
+"Las sensaciones a estas alturas de la peregrinación se han vuelto contradictorias, pues esas mismas calles poco antes se han visto repletas de tiendas de recuerdos y souvenirs religiosos, de turistas expectantes, de calor humano. Pero esas sensaciones que en cualquier otro momento podrían considerarse ‘ociosas', ahora son algo más profundo", opinó Gómez.
+Y añadió que "parece que el misticismo, o que la energía que fluye de las paredes y de las piedras de aquellas laberínticas calles te envuelven, desplazándote a otra época".
+"Tus pasos avanzan, pensando en lo ocurrido sobre aquellas mismas piedras hace cientos de años, hasta que llegas a ese destino deseado", resumió.
+Pascuas
+Tal como su nombre lo indica, el Sábado de Vigila es un momento de espera antes de lo que es el corazón de las creencias cristianas: la resurrección del Señor.
+La Pascua es un momento de celebración, y en Jerusalén ese domingo se vive con gran alegría y fe. En esa fecha se realiza una nueva peregrinación hasta el Santo Sepulcro, donde se vuelve a celebrar una misa pontifical y otra procesión.
+           </p>
+           <img src="imagenes/jerusalemTumba.jpg" height="265" width="400">
+        </div> 
+      </div>
+      <div data-role="footer" data-theme="a">
+       <h4>Aplicacion dos, Rogelio Yair Rodriguez Serrano</h4>
+       </div>
+       </div>
+       </div>
+         <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>Celebracion en Cd Juarez</h1>
+        </div>
+        <div data-role="content" align="center">
+        <div>
+         <h2>Semana santa en Ciudad Juarez Chihuahua </h2></div>
+         <p>
+         El domingo 20 de marzo, Domingo de Ramos, inicia la Semana Santa en el que se hace más visible la Misericordia de Dios, y en este contexto del Año Santo de la Misericordia, la santa madre Iglesia, Catedral, en voz de su párroco, el padre Eduardo Hayen, invita a toda la comunidad diocesana a unirse a las celebraciones litúrgicas de este tiempo y de religiosidad popular.
+Como novedad, entre las celebraciones de religiosidad popular se realizará la quema de Judas, evento poco visto en los últimos tiempos y que la Catedral retomará este año.
+Celebrar entorno al obispo
+“Estamos en el Año de la Misericordia, es un año especial, de gracia, la Puerta Santa está abierta para todos aquellos que deseen participar y que mejor que hacerlo en este contexto de la celebración del misterio pascual de Cristo”, dijo el padre Hayen.
+Añadió que la Pasión de Cristo es como un vaso que se rompe y derrama toda la Misericordia de Dios.
+“Toda la misericordia brota de la entrega de Jesús a la muerte para resucitar. Será una Semana Santa muy especial, muy significativa en el Año santo de la Misericordia y los invito a celebrarla con el señor obispo en la Catedral ya que todas las celebraciones litúrgicas estarán presididas por él”, resaltó.
+</p>
+<img src="imagenes/Domingo-de-ramosCdJuarez.jpg" width="400" height="265">
+<p>
+Miércoles y jueves Santos
+Las celebraciones iniciarán el miércoles santo, 23 de marzo, con la misa de enfermos a las 12 del mediodía presidida por el obispo don José Guadalupe Torres.
+El jueves santo, 24 de marzo, se tendrá la Misa Crismal a las 10 de la mañana encabezada por monseñor Torres y donde participará el presbiterio diocesano.
+Por la tarde del jueves, en punto de las 6, el obispo se realizará la solemne misa de la institución de la eucaristía, donde se llevará a cabo el lavatorio de los pies, la bendición de los panes y exposición con el Santísimo.
+A las 8 de la noche, en la Misión de Guadalupe, habrá una vigilia de oración en silencio para acompañar a Cristo en su agonía. Posteriormente, a las 12 de la media noche, el grupo de Adoración Nocturna iniciará su vigilia que concluirá el viernes a las 6 de la mañana.
+</p>
+<img src="imagenes/LavatorioCdJuarez.jpg" width="400" height="auto">
+<p>
+Viernes Santo
+Los oficios de Viernes Santo, 25 de marzo, darán inicio a las 8 de la mañana con la Lectura y el Laudes. A las 10 de la mañana, se realizará el Vía Crucis en la Plaza de Armas.
+Por la tarde, el obispo Torres Campos presidirá la solemne celebración litúrgica de la Pasión del Señor a las 5 de la tarde.
+A las 7 de la tarde, en un acto de religiosidad popular, se realizará la Procesión del Silencio con el Cristo del Santo Entierro y la Virgen de los Dolores, por lo que se pide a los fieles llevar velas.
+</p>
+<img src="imagenes/Obispo-en-RamosCdJuarez.jpg" width="400" height="265">
+<p>
+Sábado Santo
+El sábado santo, 26 de marzo, a las 10 de la mañana se invita a los fieles a participar del pésame a la Santísima Virgen; y a las 12 del mediodía se realizará, por primera vez en la Catedral, la quema de Judas.
+“La quema de Judas es un acto de religiosidad popular que se usa muy poco y en la Catedral queremos revivirlo ya que es un lugar donde se vive mucho la religiosidad popular”, dijo el padre Eduardo Hayen.
+A las 7:30 de la tarde, monseñor Torres Campos, presidirá la Vigilia Pascual Diocesana, para esta celebración se pide a los fieles llevar sus velas y agua, en recipientes de plástico, para ser bendecidos.
+</p>
+<p>
+Domingo de Resurrección
+Para participar de la alegría de la Resurrección de Cristo, se invita a la comunidad a participar en algunas de las celebraciones eucarísticas que la Catedral tendrá en horario normal de domingo: 8, 9, 10 y 11 de la mañana, presididas por los padres de Catedral.
+El obispo diocesano presidirá la celebración de 12 del mediodía, y por la tarde, nuevamente los sacerdotes del templo presidirán en horarios de: 1:30, 2:30, 4, 5, 6 y 7 de la tarde.
+Invitación
+“Invitamos a todos los fieles a que se acerquen a disfrutar de estos eventos y a revestirse de la Misericordia de Dios. Los invitamos de corazón a quienes quieran acercarse a vivir la Semana Santa en Catedral a hacerlo con toda confianza”, invitó el padre Hayen.
+</p>
+<p>
+Celebrará misa de Pascua en área de misa papal
+El próximo domingo 27 de marzo, se celebrará la Misa de la Resurrección del Señor en El Punto, lugar donde el Santo Padre Francisco presidió la misa multitudinaria el 17 de febrero.
+La Misa de la Pascua del Señor será presidida por el obispo diocesano, don José Guadalupe Torres Campos, a las 8 de la mañana, por lo que la diócesis invita a la comunidad diocesana a participar.
+“Queremos invitar a toda la comunidad a celebrar diocesanamente la Pascua del Señor el domingo de Resurrección. Tendremos una Santa Misa presidida por el señor obispo don José Guadalupe, y muchos sacerdotes concelebrantes”, compartió monseñor René Blanco, vicario general de la diócesis.
+“Están invitados todos los fieles de todas las parroquias de la diócesis a hacernos presentes en esta celebración en el lugar donde el Papa Francisco celebró la santa misa con nosotros, en El Punto. Los invitamos a celebrar la alegría de la Resurrección”, invitó.
+         </p>
+         </div>
+         <div data-role="footer" data-theme="a">
+           <h4>Aplicacion dos, Rogelio Yair Rodriguez Serrano</h4>
+           </div>
+</div>
+           </div>
+           
+</body>
+</html>
